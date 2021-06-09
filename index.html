@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <title>Project C41</title>
+  </head>
+  <body>
+    <header class="container">
+      <nav class="header">
+        <div class="header-logo">
+          <a href="#">
+            <img src="img/raspberries.png" alt="logo" width="50px" />
+          </a>
+          <button id="btn-menu" class="button btn-menu" type="button" onclick="openMenu()"><i class="bi bi-list"></i></button>
+          <button id="btn-tutup" type="button" class="button btn-tutup" onclick="closeMenu()">
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <div class="header-menu" id="header-menu">
+          <div class="content-menu" id="content-menu">
+            <a href="#" class="content-menu-item">Menu 1</a>
+            <a href="#" class="content-menu-item">Menu 2</a>
+            <a href="#" class="content-menu-item">Menu 3</a>
+            <a href="#" class="content-menu-item">Menu 4</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="main" class="container">
+      <div class="main-content f-justify-content-evenly">
+        <div class="box text-align-center">
+          <img src="img/raspberry-pi.png" alt="basket" width="100px" />
+          <h2>Heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error odio perspiciatis illum aperiam blanditiis laboriosam facere necessitatibus dolorem odit.</p>
+          <a href="#" class="button btn-blue">Example! <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+        <div class="box f-justify-content-center text-align-center borderless" style="height: 32rem">
+          <img src="img/raspberry-pi.png" alt="basket" class="img-circle" width="100px" />
+          <h2>Heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error odio perspiciatis illum aperiam blanditiis laboriosam facere necessitatibus dolorem odit.</p>
+          <a href="#" class="button btn-green">Example! <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+        <div class="box text-align-center">
+          <img src="img/raspberry-pi.png" alt="basket" width="100px" />
+          <h2>Heading</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque error odio perspiciatis illum aperiam blanditiis laboriosam facere necessitatibus dolorem odit.</p>
+          <a href="#" class="button btn-red">Example! <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
