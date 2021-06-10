@@ -172,7 +172,7 @@ header {
   align-items: center;
 }
 main {
-  margin-top: 1rem !important;
+  margin-top: 5rem !important;
 }
 nav.header {
   display: flex;
