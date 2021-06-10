@@ -229,6 +229,16 @@ nav.header {
   }
 }
 
+footer {
+  margin-top: 20px;
+  background-color: #1e272e;
+  padding: 20px;
+}
+
+.main-footer {
+  color: #fff;
+}
+
 /* ! TABLET */
 @media (max-width: 945px) {
   .box {
@@ -236,4 +246,7 @@ nav.header {
     height: 27rem !important;
     justify-content: center;
   }
+  .main-footer {
+  text-align: center;
+}
 }
