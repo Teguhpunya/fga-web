@@ -158,9 +158,9 @@ header {
   z-index: 3;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
 }
-.img-circle {
+.box img {
   border: 1px solid #1e272e;
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 .main-content {
   display: flex;
