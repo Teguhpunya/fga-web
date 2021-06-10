@@ -15,6 +15,7 @@
         <div class="header-logo">
           <a href="#">
             <img src="img/raspberries.png" alt="logo" width="50px" />
+            Raspberry Pi
           </a>
           <button id="btn-menu" class="button btn-menu" type="button" onclick="openMenu()"><i class="bi bi-list"></i></button>
           <button id="btn-tutup" type="button" class="button btn-tutup" onclick="closeMenu()">
@@ -22,30 +23,29 @@
           </button>
         </div>
         <div class="header-menu" id="header-menu">
-          <div class="content-menu" id="content-menu">
-            <a href="#" class="content-menu-item">Menu 1</a>
-            <a href="#" class="content-menu-item">Menu 2</a>
-            <a href="#" class="content-menu-item">Menu 3</a>
-            <a href="#" class="content-menu-item">Menu 4</a>
+          <div class="content-menu" id="content-menu" onclick="closeMenu()">
+            <a href="#rp4b" class="content-menu-item">Raspberry Pi 4 B</a>
+            <a href="#rppc" class="content-menu-item">Raspberry Pi 400 PC Kit</a>
+            <a href="#rppico" class="content-menu-item">Raspberry Pico</a>
           </div>
         </div>
       </nav>
     </header>
     <main id="main" class="container">
       <div class="main-content f-justify-content-evenly">
-        <div class="box text-align-center">
+        <div class="box text-align-center" id="rp4b">
           <img src="img/rpi4b.jpg" alt="basket" width="100px" />
           <h2>Raspberry Pi 4 Model B</h2>
           <p>Your tiny, dual-display, desktop computer</p>
           <a href="https://wa.me/628123456789?text=Saya%20order%20RP4B%20dong" class="button btn-blue">Order via Whatsapp! <i class="bi bi-arrow-right-circle"></i></a>
         </div>
-        <div class="box f-justify-content-center text-align-center borderless" style="height: 32rem">
+        <div class="box f-justify-content-center text-align-center borderless" id="rppc" style="height: 32rem">
           <img src="img/rp400pck.jpg" width="200px" />
           <h2>Raspberry Pi 400 Personal Computer Kit</h2>
           <p>Raspberry Pi 400 is your complete personal computer, built into a compact keyboard.</p>
           <a href="https://wa.me/628123456789?text=Saya%20order%20RP400PC%20dong" class="button btn-green">Order via Whatsapp! <i class="bi bi-arrow-right-circle"></i></a>
         </div>
-        <div class="box text-align-center">
+        <div class="box text-align-center" id="rppico">
           <img src="img/rppico.jpg" alt="basket" width="100px" />
           <h2>Raspberry Pi Pico</h2>
           <p>The new, flexible $4 microcontroller board from Raspberry Pi</p>

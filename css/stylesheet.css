@@ -101,6 +101,9 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.content-menu {
+  display: none;
+}
 .content-menu a.content-menu-item {
   color: #ddd;
   text-decoration: none;
@@ -153,7 +156,8 @@ body {
 header {
   background-color: #1e272e;
   color: #fff;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0px;
   z-index: 3;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
@@ -178,11 +182,16 @@ nav.header {
 .header-logo {
   padding: 5px 16px;
 }
+.header-logo a {
+  text-decoration: none;
+  text-align: center;
+  color: #ddd;
+}
 .header-menu {
   padding: 5px 16px;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 818px) {
   .box {
     width: 30rem;
     height: 27rem !important;
@@ -213,6 +222,7 @@ nav.header {
   }
   .header {
     display: block !important;
+    height: fit-content;
   }
   .header-logo {
     display: flex !important;
@@ -221,7 +231,6 @@ nav.header {
     padding-top: 10px !important;
   }
   .header-menu {
-    margin: 10px 0px;
     text-align: center;
   }
   #main {
@@ -248,5 +257,8 @@ footer {
   }
   .main-footer {
   text-align: center;
-}
+  }
+  .content-menu {
+    display: flex;
+  }
 }
